@@ -16,6 +16,14 @@
                         <div class = "navbar-brand">
                             <a href="/logout"><span class = "navbar-brand-text">Build <span>Resume</span></a>
                         </div>
+                        <div class="resume-format-selector">
+                            <label for="resumeFormat" class="form-label">Choose Format:</label>
+                            <select id="resumeFormat" class="form-control" onchange="handleFormatChange()">
+                                <option value="standard">Standard</option>
+                                <option value="modern">Modern</option>
+                                <option value="minimalist">Minimalist</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
